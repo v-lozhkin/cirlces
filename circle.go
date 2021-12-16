@@ -21,6 +21,10 @@ func (c Circle) Radius() int {
 	return c.MyRadius
 }
 
+func (c Circle) Diameter() int {
+	return c.MyRadius * 2
+}
+
 func (c Circle) Point() (int, int) {
 	return 0, 0
 }
